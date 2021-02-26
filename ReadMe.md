@@ -1,0 +1,4 @@
+﻿# Pijul
+Pijul is the first distributed version control system to be based on a sound mathematical theory of changes. It is inspired by [Darcs](https://darcs.net), but aims at solving the soundness and performance issues of Darcs.
+
+Pijul has a number of features that allow it to scale to very large repositories and fast-paced workflows. In particular, **change commutation** means that changes written independently can be applied in any order, without changing the result. This property simplifies workflows, allowing Pijul to **clone sub-parts of repositories**, to **solve conflicts reliably**, to **easily combine different versions**.

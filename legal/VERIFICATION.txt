@@ -1,0 +1,16 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+1.  Download the appropriate exe:
+
+    x64: https://github.com/boringcactus/pijul-windows-builds/releases/download/1.0.0-alpha.41/pijul.exe
+
+2.  You can use one of the following methods to obtain the checksum: 
+    - Use powershell function 'Get-FileHash'
+    - Use Chocolatey utility 'checksum.exe'
+
+    checksum64: 53EE3F517BC2CCC401EF2EDB0FD064EA172388C04AB1E6C868DB7AB1690F8347
+
+    Using AU:
+        Get-RemoteChecksum https://github.com/boringcactus/pijul-windows-builds/releases/download/1.0.0-alpha.41/pijul.exe
